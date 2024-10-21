@@ -16,7 +16,8 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
+          distribution: 'adopt'   # Pilihan distribusi, bisa 'adopt', 'zulu', 'temurin', dll.
+          java-version: '11'      # Versi JDK yang dibutuhkan, misalnya 11
 
       - name: Build with Gradle
         run: ./gradlew build
