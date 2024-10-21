@@ -1,3 +1,8 @@
 [submodule "path/to/submodule"]
 	path = path/to/submodule
 	url = https://github.com/yuraimi/PemogramanWeb.git
+
+[submodule "yuraimi.github.io"]
+    path = yuraimi.github.io
+    url = https://github.com/yuraimi/yuraimi.github.io.git
+
